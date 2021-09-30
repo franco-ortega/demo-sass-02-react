@@ -1,0 +1,29 @@
+
+.Home {
+  background-color: lightblue;
+  width: 75ch;
+
+  header {
+    border: thin dotted purple;
+  }
+
+  section {
+    border: thin dashed darkcyan;
+  }
+
+  section:nth-child(2) {
+    background: red;
+  }
+
+  section:nth-child(3) {
+    background: brown;
+  }
+
+  section:last-child {
+    background: purple;
+  }
+
+  p {
+    background: lightgray;
+  }
+}
