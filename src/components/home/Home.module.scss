@@ -1,3 +1,8 @@
+%section-shared {
+  border: thin dashed darkcyan;
+  margin: 1rem;
+  color: darkmagenta;
+}
 
 .Home {
   background-color: lightblue;
@@ -7,8 +12,12 @@
     border: thin dotted purple;
   }
 
+  h3 {
+    color: goldenrod;
+  }
+
   section {
-    border: thin dashed darkcyan;
+    @extend %section-shared;
   }
 
   section:nth-child(2) {
