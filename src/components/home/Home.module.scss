@@ -23,18 +23,19 @@
   }
 
   section:nth-child(2) {
-    background: red;
+    background: colors.$section-one-bkgd;
   }
 
   section:nth-child(3) {
-    background: brown;
+    background: colors.$section-two-bkgd;
   }
 
   section:last-child {
-    background: purple;
+    background: colors.$section-three-bkgd;;
   }
 
   p {
     background: lightgray;
+    margin: 1vw;
   }
 }
