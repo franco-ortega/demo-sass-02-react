@@ -1,4 +1,5 @@
 @use '../../scss/colors' as *;
+@use '../../scss/fonts' as *;
 
 %section-shared {
   border: thin dashed darkcyan;
@@ -9,6 +10,7 @@
 .Home {
   background-color: lightblue;
   width: 75ch;
+  font-family: $main-font;
 
   header {
     border: thin dotted purple;
@@ -24,14 +26,17 @@
 
   section:nth-child(2) {
     background: $section-one-bkgd;
+    font-family: $section-one-font;
   }
 
   section:nth-child(3) {
     background: $section-two-bkgd;
+    font-family: $section-two-font;
   }
 
   section:last-child {
-    background: $section-three-bkgd;;
+    background: $section-three-bkgd;
+    font-family: $section-three-font;
   }
 
   p {
