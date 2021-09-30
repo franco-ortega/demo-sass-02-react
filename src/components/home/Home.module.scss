@@ -1,4 +1,4 @@
-@use '../../scss/colors';
+@use '../../scss/colors' as *;
 
 %section-shared {
   border: thin dashed darkcyan;
@@ -23,15 +23,15 @@
   }
 
   section:nth-child(2) {
-    background: colors.$section-one-bkgd;
+    background: $section-one-bkgd;
   }
 
   section:nth-child(3) {
-    background: colors.$section-two-bkgd;
+    background: $section-two-bkgd;
   }
 
   section:last-child {
-    background: colors.$section-three-bkgd;;
+    background: $section-three-bkgd;;
   }
 
   p {
