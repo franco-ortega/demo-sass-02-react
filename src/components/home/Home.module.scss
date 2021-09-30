@@ -3,8 +3,8 @@
 // % allows me to make a grouping that can be passed (@extend) to any selector
 %section-shared {
   border: thin dashed darkcyan;
-  margin: 1rem;
-  width: 75ch;
+  margin: 1rem auto;
+  width: 30ch;
   color: darkmagenta;
 }
 
@@ -12,7 +12,6 @@
 // it also allows me to pass parameters into it
 @mixin shadow($color: yellow) {
   box-shadow: 0 0 2vw 1vw $color;
-  padding: 0.5vw;
 }
 
 .Home {
@@ -25,6 +24,7 @@
 
   h3 {
     color: goldenrod;
+    margin: 0.5rem;
   }
 
   section {
@@ -51,6 +51,6 @@
 
   p {
     background: lightgray;
-    margin: 1vw;
+    margin: 1rem;
   }
 }
