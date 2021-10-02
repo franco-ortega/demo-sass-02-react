@@ -1,0 +1,70 @@
+@use '../../scss' as *;
+
+@mixin boxColors($boxColor) {
+  p:nth-child(1) {
+    background: hsl($boxColor, $sat-full, $light-mid);
+  }
+
+  p:nth-child(2) {
+    background: hsl($boxColor, $sat-high, $light-mid);
+  }
+
+  p:nth-child(3) {
+    background: hsl($boxColor, $sat-mid, $light-mid);
+  }
+
+  p:nth-child(4) {
+    background: hsl($boxColor, $sat-low, $light-mid);
+  }
+
+  p:nth-child(5) {
+    background: hsl($boxColor, $sat-none, $light-mid);
+  }
+}
+
+.Colors {
+  border: thick solid green;
+  padding: 1vw;
+  color: black;
+
+  div {
+    border: medium solid black;
+
+    width: 100%;
+    padding: 1vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1vw;
+  }
+
+  p {
+    height: 10vh;
+    width: 20%;
+    text-align: center;
+  }
+
+  div:nth-child(2) {
+    @include boxColors($red-hsl);
+  }
+
+  div:nth-child(3) {
+    @include boxColors($yellow-hsl);
+  }
+
+  div:nth-child(4) {
+    @include boxColors($orange-hsl);
+  }
+
+  div:nth-child(5) {
+    @include boxColors($green-hsl);
+  }
+
+  div:nth-child(6) {
+    @include boxColors($blue-hsl);
+  }
+
+  div:nth-child(7) {
+    @include boxColors($purple-hsl);
+  }
+}
