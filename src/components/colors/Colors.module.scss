@@ -1,0 +1,19 @@
+@use '../../scss' as *;
+
+.Colors {
+  border: thick solid green;
+  height: 50vh;
+  padding: 1vw;
+  color: black;
+
+  div {
+    border: medium solid black;
+
+    width: 100%;
+    padding: 1vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1vw;
+  }
+}

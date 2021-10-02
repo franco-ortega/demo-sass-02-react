@@ -3,3 +3,31 @@ $main-bkgd: pink;
 $section-one-bkgd: red;
 $section-two-bkgd: brown;
 $section-three-bkgd: purple;
+
+body {
+  color: hsl(0, 59%, 41%);
+  color: hsl(0, 100%, 50%);
+  color: hsl(39, 100%, 50%);
+  color: hsl(60, 100%, 50%);
+  color: hsl(120, 100%, 25%);
+  color: hsl(240, 100%, 50%);
+  color: hsl(300, 100%, 25%);
+}
+
+$red-hsl: 0;
+$yellow-hsl: 60;
+$green-hsl: 120;
+$blue-hsl: 240;
+$purple-hsl: 300;
+
+$sat-full: 100%;
+$sat-high: 75%;
+$sat-mid: 50%;
+$sat-low: 25%;
+$sat-none: 0%;
+
+$light-full: 100%;
+$light-high: 75%;
+$light-mid: 50%;
+$light-low: 25%;
+$light-none: 0%;
