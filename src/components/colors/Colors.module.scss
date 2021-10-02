@@ -45,113 +45,23 @@
   }
 
   div:nth-child(2) {
-    p:nth-child(1) {
-      background: hsl($red-hsl, $sat-full, $light-mid);
-    }
-
-    p:nth-child(2) {
-      background: hsl($red-hsl, $sat-high, $light-mid);
-    }
-
-    p:nth-child(3) {
-      background: hsl($red-hsl, $sat-mid, $light-mid);
-    }
-
-    p:nth-child(4) {
-      background: hsl($red-hsl, $sat-low, $light-mid);
-    }
-
-    p:nth-child(5) {
-      background: hsl($red-hsl, $sat-none, $light-mid);
-    }
+    @include boxColors($red-hsl);
   }
 
   div:nth-child(3) {
-    p:nth-child(1) {
-      background: hsl($yellow-hsl, $sat-full, $light-mid);
-    }
-
-    p:nth-child(2) {
-      background: hsl($yellow-hsl, $sat-high, $light-mid);
-    }
-
-    p:nth-child(3) {
-      background: hsl($yellow-hsl, $sat-mid, $light-mid);
-    }
-
-    p:nth-child(4) {
-      background: hsl($yellow-hsl, $sat-low, $light-mid);
-    }
-
-    p:nth-child(5) {
-      background: hsl($yellow-hsl, $sat-none, $light-mid);
-    }
+    @include boxColors($yellow-hsl);
   }
 
   div:nth-child(4) {
-    p:nth-child(1) {
-      background: hsl($orange-hsl, $sat-full, $light-mid);
-    }
-
-    p:nth-child(2) {
-      background: hsl($orange-hsl, $sat-high, $light-mid);
-    }
-
-    p:nth-child(3) {
-      background: hsl($orange-hsl, $sat-mid, $light-mid);
-    }
-
-    p:nth-child(4) {
-      background: hsl($orange-hsl, $sat-low, $light-mid);
-    }
-
-    p:nth-child(5) {
-      background: hsl($orange-hsl, $sat-none, $light-mid);
-    }
+    @include boxColors($orange-hsl);
   }
 
   div:nth-child(5) {
-    p:nth-child(1) {
-      background: hsl($green-hsl, $sat-full, $light-mid);
-    }
-
-    p:nth-child(2) {
-      background: hsl($green-hsl, $sat-high, $light-mid);
-    }
-
-    p:nth-child(3) {
-      background: hsl($green-hsl, $sat-mid, $light-mid);
-    }
-
-    p:nth-child(4) {
-      background: hsl($green-hsl, $sat-low, $light-mid);
-    }
-
-    p:nth-child(5) {
-      background: hsl($green-hsl, $sat-none, $light-mid);
-    }
+    @include boxColors($green-hsl);
   }
 
   div:nth-child(6) {
-    p:nth-child(1) {
-      background: hsl($blue-hsl, $sat-full, $light-mid);
-    }
-
-    p:nth-child(2) {
-      background: hsl($blue-hsl, $sat-high, $light-mid);
-    }
-
-    p:nth-child(3) {
-      background: hsl($blue-hsl, $sat-mid, $light-mid);
-    }
-
-    p:nth-child(4) {
-      background: hsl($blue-hsl, $sat-low, $light-mid);
-    }
-
-    p:nth-child(5) {
-      background: hsl($blue-hsl, $sat-none, $light-mid);
-    }
+    @include boxColors($blue-hsl);
   }
 
   div:nth-child(7) {
