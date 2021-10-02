@@ -16,4 +16,32 @@
     justify-content: center;
     gap: 1vw;
   }
+
+  p {
+    height: 10vh;
+    width: 20%;
+    text-align: center;
+  }
+
+  div:nth-child(2) {
+    p:nth-child(1) {
+      background: hsl($red-hsl, $sat-full, $light-mid);
+    }
+
+    p:nth-child(2) {
+      background: hsl($red-hsl, $sat-high, $light-mid);
+    }
+
+    p:nth-child(3) {
+      background: hsl($red-hsl, $sat-mid, $light-mid);
+    }
+
+    p:nth-child(4) {
+      background: hsl($red-hsl, $sat-low, $light-mid);
+    }
+
+    p:nth-child(5) {
+      background: hsl($red-hsl, $sat-none, $light-mid);
+    }
+  }
 }
