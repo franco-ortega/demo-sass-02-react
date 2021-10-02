@@ -2,7 +2,6 @@
 
 .Colors {
   border: thick solid green;
-  height: 50vh;
   padding: 1vw;
   color: black;
 
@@ -47,6 +46,28 @@
 
   div:nth-child(3) {
     p:nth-child(1) {
+      background: hsl($orange-hsl, $sat-full, $light-mid);
+    }
+
+    p:nth-child(2) {
+      background: hsl($orange-hsl, $sat-high, $light-mid);
+    }
+
+    p:nth-child(3) {
+      background: hsl($orange-hsl, $sat-mid, $light-mid);
+    }
+
+    p:nth-child(4) {
+      background: hsl($orange-hsl, $sat-low, $light-mid);
+    }
+
+    p:nth-child(5) {
+      background: hsl($orange-hsl, $sat-none, $light-mid);
+    }
+  }
+
+  div:nth-child(4) {
+    p:nth-child(1) {
       background: hsl($red-hsl, $sat-full, $light-mid);
     }
 
@@ -64,6 +85,28 @@
 
     p:nth-child(5) {
       background: hsl($red-hsl, $sat-none, $light-mid);
+    }
+  }
+
+  div:nth-child(5) {
+    p:nth-child(1) {
+      background: hsl($green-hsl, $sat-full, $light-mid);
+    }
+
+    p:nth-child(2) {
+      background: hsl($green-hsl, $sat-high, $light-mid);
+    }
+
+    p:nth-child(3) {
+      background: hsl($green-hsl, $sat-mid, $light-mid);
+    }
+
+    p:nth-child(4) {
+      background: hsl($green-hsl, $sat-low, $light-mid);
+    }
+
+    p:nth-child(5) {
+      background: hsl($green-hsl, $sat-none, $light-mid);
     }
   }
 }

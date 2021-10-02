@@ -19,6 +19,20 @@ const Colors = () => {
         <p>Box</p>
         <p>Box</p>
       </div>
+      <div>
+        <p>Box</p>
+        <p>Box</p>
+        <p>Box</p>
+        <p>Box</p>
+        <p>Box</p>
+      </div>
+      <div>
+        <p>Box</p>
+        <p>Box</p>
+        <p>Box</p>
+        <p>Box</p>
+        <p>Box</p>
+      </div>
       
     </footer>
   )
