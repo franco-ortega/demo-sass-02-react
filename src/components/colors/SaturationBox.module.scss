@@ -22,25 +22,30 @@
   }
 }
 
-.Colors {
-  border: thick solid green;
-  padding: 1vw;
-  color: black;
+.SaturationBox {
+  color: white;
+}
 
-  div {
-    border: medium solid black;
+.Red {
+  @include boxColors($red-hsl);
+}
 
-    width: 100%;
-    padding: 1vw;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 1vw;
-  }
+.Yellow {
+  @include boxColors($yellow-hsl);
+}
 
-  p {
-    height: 10vh;
-    width: 20%;
-    text-align: center;
-  }
+.Orange {
+  @include boxColors($orange-hsl);
+}
+
+.Green {
+  @include boxColors($green-hsl);
+}
+
+.Blue {
+  @include boxColors($blue-hsl);
+}
+
+.Purple {
+  @include boxColors($purple-hsl);
 }
