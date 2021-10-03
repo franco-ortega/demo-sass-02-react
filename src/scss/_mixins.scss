@@ -1,0 +1,29 @@
+@use './colors' as *;
+
+// mixin allows me to make a grouping that can be passed (@extend) to any selector
+// it also allows me to pass parameters into it
+@mixin shadow($color: yellow) {
+  box-shadow: 0 0 2vw 1vw $color;
+}
+
+@mixin boxColors($boxColor) {
+  p:nth-child(1) {
+    background: hsl($boxColor, $sat-full, $light-mid);
+  }
+
+  p:nth-child(2) {
+    background: hsl($boxColor, $sat-high, $light-mid);
+  }
+
+  p:nth-child(3) {
+    background: hsl($boxColor, $sat-mid, $light-mid);
+  }
+
+  p:nth-child(4) {
+    background: hsl($boxColor, $sat-low, $light-mid);
+  }
+
+  p:nth-child(5) {
+    background: hsl($boxColor, $sat-none, $light-mid);
+  }
+}
