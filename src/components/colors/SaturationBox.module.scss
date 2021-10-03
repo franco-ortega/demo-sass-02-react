@@ -1,0 +1,41 @@
+@use '../../scss' as *;
+
+.SaturationBox {
+  border: medium solid black;
+  width: 100%;
+  padding: 1vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1vw;
+
+  p {
+    height: 10vh;
+    width: 20%;
+    text-align: center;
+  }
+}
+
+.Red {
+  @include boxColors($red-hsl);
+}
+
+.Yellow {
+  @include boxColors($yellow-hsl);
+}
+
+.Orange {
+  @include boxColors($orange-hsl);
+}
+
+.Green {
+  @include boxColors($green-hsl);
+}
+
+.Blue {
+  @include boxColors($blue-hsl);
+}
+
+.Purple {
+  @include boxColors($purple-hsl);
+}

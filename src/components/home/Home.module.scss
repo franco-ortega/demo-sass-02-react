@@ -8,12 +8,6 @@
   color: darkmagenta;
 }
 
-// mixin allows me to make a grouping that can be passed (@extend) to any selector
-// it also allows me to pass parameters into it
-@mixin shadow($color: yellow) {
-  box-shadow: 0 0 2vw 1vw $color;
-}
-
 .Home {
   background-color: lightblue;
   font-family: $main-font;
