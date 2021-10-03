@@ -12,7 +12,7 @@ const SaturationBox = ({ color }) => {
   else if(color === 'Purple') hsl = styles.Purple;
 
   return (
-    <div className={hsl}>
+    <div className={`${styles.SaturationBox} ${hsl}`}>
       <p>{color} <br /> Full Sat </p>
       <p>{color} <br /> High Sat </p>
       <p>{color} <br /> Mid Sat </p>
