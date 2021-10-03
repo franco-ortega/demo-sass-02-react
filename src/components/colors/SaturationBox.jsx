@@ -2,10 +2,8 @@ import React from 'react';
 import styles from './SaturationBox.module.scss';
 
 const SaturationBox = ({ color }) => {
-  const hsl = styles[color];
-
   return (
-    <div className={`${styles.SaturationBox} ${hsl}`}>
+    <div className={`${styles.SaturationBox} ${styles[color]}`}>
       <p>{color} <br /> Full Sat </p>
       <p>{color} <br /> High Sat </p>
       <p>{color} <br /> Mid Sat </p>
