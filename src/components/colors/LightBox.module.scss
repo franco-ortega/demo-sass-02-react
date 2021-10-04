@@ -1,0 +1,42 @@
+@use '../../scss' as *;
+
+.LightBox {
+  border: medium solid black;
+  width: 100%;
+  padding: 1vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1vw;
+
+  p {
+    height: 10vh;
+    width: 20%;
+    color: gold;
+    text-align: center;
+  }
+}
+
+.Red {
+  @include boxLight($red-hsl);
+}
+
+.Yellow {
+  @include boxLight($yellow-hsl);
+}
+
+.Orange {
+  @include boxLight($orange-hsl);
+}
+
+.Green {
+  @include boxLight($green-hsl);
+}
+
+.Blue {
+  @include boxLight($blue-hsl);
+}
+
+.Purple {
+  @include boxLight($purple-hsl);
+}
