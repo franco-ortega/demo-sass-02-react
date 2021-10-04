@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './Colors.module.scss';
+import LightBox from './LightBox';
 import SaturationBox from './SaturationBox';
 
 const Colors = () => {
@@ -12,6 +13,13 @@ const Colors = () => {
       <SaturationBox color={'Green'} />
       <SaturationBox color={'Blue'} />
       <SaturationBox color={'Purple'} />
+      <hr style={{margin: '2vw'}} />
+      <LightBox color={'Red'} />
+      <LightBox color={'Yellow'} />
+      <LightBox color={'Orange'} />
+      <LightBox color={'Green'} />
+      <LightBox color={'Blue'} />
+      <LightBox color={'Purple'} />
 
     </footer>
   )

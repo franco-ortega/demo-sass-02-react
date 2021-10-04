@@ -1,6 +1,6 @@
 @use '../../scss' as *;
 
-.SaturationBox {
+.LightBox {
   border: medium solid black;
   width: 100%;
   padding: 1vw;
@@ -12,30 +12,35 @@
   p {
     height: 10vh;
     width: 20%;
+    // color: gold;
     text-align: center;
+  }
+
+  span {
+    background-color: goldenrod;
   }
 }
 
 .Red {
-  @include boxSaturation($red-hsl);
+  @include boxLight($red-hsl);
 }
 
 .Yellow {
-  @include boxSaturation($yellow-hsl);
+  @include boxLight($yellow-hsl);
 }
 
 .Orange {
-  @include boxSaturation($orange-hsl);
+  @include boxLight($orange-hsl);
 }
 
 .Green {
-  @include boxSaturation($green-hsl);
+  @include boxLight($green-hsl);
 }
 
 .Blue {
-  @include boxSaturation($blue-hsl);
+  @include boxLight($blue-hsl);
 }
 
 .Purple {
-  @include boxSaturation($purple-hsl);
+  @include boxLight($purple-hsl);
 }
