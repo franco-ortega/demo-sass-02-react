@@ -17,25 +17,25 @@
 }
 
 .Red {
-  @include boxColors($red-hsl);
+  @include boxSaturation($red-hsl);
 }
 
 .Yellow {
-  @include boxColors($yellow-hsl);
+  @include boxSaturation($yellow-hsl);
 }
 
 .Orange {
-  @include boxColors($orange-hsl);
+  @include boxSaturation($orange-hsl);
 }
 
 .Green {
-  @include boxColors($green-hsl);
+  @include boxSaturation($green-hsl);
 }
 
 .Blue {
-  @include boxColors($blue-hsl);
+  @include boxSaturation($blue-hsl);
 }
 
 .Purple {
-  @include boxColors($purple-hsl);
+  @include boxSaturation($purple-hsl);
 }

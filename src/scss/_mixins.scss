@@ -6,7 +6,7 @@
   box-shadow: 0 0 2vw 1vw $color;
 }
 
-@mixin boxColors($boxColor) {
+@mixin boxSaturation($boxColor) {
   p:nth-child(1) {
     background: hsl($boxColor, $sat-full, $light-mid);
   }
