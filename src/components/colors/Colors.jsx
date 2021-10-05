@@ -7,20 +7,25 @@ const Colors = () => {
   return (
     <footer className={styles.Colors}>
       <h2>Colors!!!!</h2>
-      <SaturationBox color={'Red'} />
-      <SaturationBox color={'Yellow'} />
-      <SaturationBox color={'Orange'} />
-      <SaturationBox color={'Green'} />
-      <SaturationBox color={'Blue'} />
-      <SaturationBox color={'Purple'} />
-      <hr style={{margin: '2vw'}} />
-      <LightBox color={'Red'} />
-      <LightBox color={'Yellow'} />
-      <LightBox color={'Orange'} />
-      <LightBox color={'Green'} />
-      <LightBox color={'Blue'} />
-      <LightBox color={'Purple'} />
-
+      <section>
+        <div>
+          <SaturationBox color={'Red'} />
+          <SaturationBox color={'Yellow'} />
+          <SaturationBox color={'Orange'} />
+          <SaturationBox color={'Green'} />
+          <SaturationBox color={'Blue'} />
+          <SaturationBox color={'Purple'} />
+        </div>
+        <hr style={{margin: '2vw'}} />
+        <div>
+          <LightBox color={'Red'} />
+          <LightBox color={'Yellow'} />
+          <LightBox color={'Orange'} />
+          <LightBox color={'Green'} />
+          <LightBox color={'Blue'} />
+          <LightBox color={'Purple'} />
+        </div>
+      </section>
     </footer>
   )
 };
