@@ -47,4 +47,10 @@
     background: lightgray;
     margin: 1rem;
   }
+
+  @media screen and (min-width: 500px) {
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+  }
 }
