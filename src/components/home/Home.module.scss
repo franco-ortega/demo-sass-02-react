@@ -2,18 +2,23 @@
 
 // % allows me to make a grouping that can be passed (@extend) to any selector
 %section-shared {
-  border: thin dashed darkcyan;
-  margin: 1rem auto;
-  width: 30ch;
+  border: thin solid darkcyan;
+  margin: 2rem auto;
   color: darkmagenta;
 }
 
 .Home {
-  background-color: lightblue;
+  background: lightblue;
   font-family: $main-font;
+  display: flex;
+  flex-direction: column;
+  // border: 1px solid transparent;
 
   header {
-    border: thin dotted purple;
+    background: orangered;
+    padding: 1rem;
+    width: 100%;
+    text-align: center;
   }
 
   h3 {
@@ -23,6 +28,7 @@
 
   section {
     @extend %section-shared;
+    width: 30ch;
   }
 
   section:nth-child(2) {
@@ -46,11 +52,35 @@
   p {
     background: lightgray;
     margin: 1rem;
+    padding: 0.5rem;
   }
 
-  @media screen and (min-width: 500px) {
-    display: flex;
+  @include media-query(small) {
+    background: cyan;
+
+    section {
+      width: 40ch;
+    }
+  }
+
+  @include media-query(medium) {
+    background: purple;
     flex-direction: row;
     gap: 2vw;
+
+    header {
+      position: absolute;
+      left: 50%;
+      transform: translate(-50%);
+    }
+
+    section {
+      margin-top: 5em;
+      width: 25ch;
+    }
+  }
+
+  @include media-query(large) {
+    background: grey;
   }
 }
