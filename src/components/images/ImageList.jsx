@@ -1,9 +1,10 @@
 import React from 'react';
 import Image from './Image';
+import styles from './ImageList.module.scss';
 
 const ImageList = () => {
   return (
-    <div>
+    <div className={styles.ImageList}>
       <Image />
       <Image />
       <Image />
