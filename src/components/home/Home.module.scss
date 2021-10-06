@@ -82,5 +82,9 @@
 
   @include media-query(large) {
     background: grey;
+
+    section {
+      width: 40ch;
+    }
   }
 }

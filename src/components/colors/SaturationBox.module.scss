@@ -9,6 +9,10 @@
   justify-content: center;
   gap: 1vw;
 
+  & + & {
+    margin-top: 1vw;
+  }
+
   p {
     height: 10vh;
     width: 20%;
