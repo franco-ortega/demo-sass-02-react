@@ -4,9 +4,9 @@ import styles from './Home.module.scss';
 const Home = () => {
   return (
     <main className={styles.Home}>
-      {/* <header>
+      <header>
         <h2>This is the Home Page!!</h2>
-      </header> */}
+      </header>
       <section>
         <h3>Section 1</h3>
         <p>
