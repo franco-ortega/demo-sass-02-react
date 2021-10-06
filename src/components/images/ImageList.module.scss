@@ -1,4 +1,15 @@
+@use '../../scss' as *;
+
 .ImageList {
   background: darkslategray;
-  text-align: center;
+  border: medium solid black;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  @include media-query(medium) {
+    flex-direction: row;
+    justify-content: center;
+  }
 }

@@ -6,12 +6,12 @@ import ImageList from './components/images/ImageList';
 
 const App = () => {
   return (
-    <div>
+    <>
       <Header />
       <Home />
       <ImageList />
       <Colors />
-    </div>
+    </>
   )
 }
 
