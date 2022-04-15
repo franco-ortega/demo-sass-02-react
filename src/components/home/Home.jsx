@@ -10,7 +10,7 @@ const Home = () => {
       <section>
         <h3>Section 1</h3>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro perferendis laboriosam nobis voluptates earum laborum nam, similique facilis unde debitis vero aliquam deleniti magni soluta sapiente provident temporibus omnis illum, odit adipisci quo nulla commodi impedit. Qui magnam et deleniti aliquam, id dolore iure temporibus neque nostrum, nisi molestiae. Accusamus!
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro perferendis laboriosam nobis voluptates earum laborum nam, similique facilis unde debitis vero aliquam deleniti magni soluta sapiente provident temporibus omnis illum, odit adipisci quo nulla commodi impedit. Qui magnam et deleniti aliquam, id dolore iure temporibus neque nostrum, nisi molestiae. Accusamus! BLah bla has.
         </p>
       </section>
       <section>
